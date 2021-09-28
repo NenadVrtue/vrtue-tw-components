@@ -3,7 +3,11 @@ module.exports = {
   future: {},
   purge: [],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        sarena: "#555555",
+      },
+    },
   },
   variants: {},
   plugins: [],

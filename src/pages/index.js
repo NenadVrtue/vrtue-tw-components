@@ -17,6 +17,7 @@ const IndexPage = () => (
         alt="gatsby astronaut"
       />
     </div>
+    <Link to="/headers">Headers</Link> <br />
     <Link to="/page-2/">Go to page 2</Link>
     <Link to="/using-typescript/">Go to "Using TypeScript"</Link>
   </Layout>
