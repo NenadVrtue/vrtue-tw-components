@@ -18,7 +18,7 @@ const Header1 = () => {
             to="/"
             className="my-auto ml-4 text-2xl text-black font-semibold hover:text-red-700"
           >
-            Home
+            kuca
           </Link>
           <Link to="/" className="text-sarena my-auto ml-4">
             Home
