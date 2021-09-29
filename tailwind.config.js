@@ -4,8 +4,9 @@ module.exports = {
   purge: [],
   theme: {
     extend: {
-      colors: {
-        sarena: "#555555",
+      minHeight: {
+        "90vh": "90vh",
+        "80vh": "80vh",
       },
     },
   },

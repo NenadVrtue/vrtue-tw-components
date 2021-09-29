@@ -13,9 +13,5 @@ a {
   @apply text-blue-600;
 }
 
-.navLink {
-  @apply text-red-700 text-3xl;
-}
-
 @tailwind components;
 @tailwind utilities;

@@ -4,9 +4,7 @@ module.exports = {
     description: `Kick off your next, great Gatsby project with this default starter with TailwindCSS and common dev tools. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `Nenad`,
   },
-  flags: {
-    THE_FLAG: false
-  },
+
   plugins: [
     `gatsby-plugin-react-helmet`,
     {
@@ -66,8 +64,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-postcss`,
       options: {
-        postCssPlugins: [require("tailwindcss"), require("autoprefixer")]
-      }
+        postCssPlugins: [require("tailwindcss"), require("autoprefixer")],
+      },
     },
     {
       resolve: `gatsby-plugin-purgecss`,
@@ -76,6 +74,6 @@ module.exports = {
         develop: false,
         tailwind: true,
       },
-    }
+    },
   ],
 }

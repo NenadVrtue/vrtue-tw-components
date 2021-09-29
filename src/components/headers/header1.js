@@ -4,14 +4,10 @@ import React from "react"
 
 const Header1 = () => {
   return (
-    <nav className="shadow-lg  py-4">
+    <header className="shadow-lg  py-4">
       <div className="max-w-6xl  mx-auto flex align-middle justify-between px-4 xl:px-0">
         <Link to="/" className="">
-          <StaticImage
-            src="../images/gatsby-astronaut.png"
-            alt="gatsby astronaut"
-            className="w-12"
-          />
+          <StaticImage src="../images/trnsp-Logo-1.png" alt="vector" />
         </Link>
         <nav className="hidden lg:flex align-middle">
           <Link
@@ -20,13 +16,13 @@ const Header1 = () => {
           >
             kuca
           </Link>
-          <Link to="/" className="text-sarena my-auto ml-4">
+          <Link to="/" className=" my-auto ml-4">
             Home
           </Link>
           <Link to="/" className="my-auto ml-4">
             Home
           </Link>
-          <Link to="/" className="navLink my-auto ml-4">
+          <Link to="/" className="my-auto ml-4">
             Home
           </Link>
         </nav>
@@ -41,10 +37,9 @@ const Header1 = () => {
               <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
             </svg>
           </button>
-          <button className="button-primary">test</button>
         </div>
       </div>
-    </nav>
+    </header>
   )
 }
 
