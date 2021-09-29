@@ -7,23 +7,20 @@ const Header1 = () => {
     <header className="shadow-lg  py-4">
       <div className="max-w-6xl  mx-auto flex align-middle justify-between px-4 xl:px-0">
         <Link to="/" className="">
-          <StaticImage src="../images/trnsp-Logo-1.png" alt="vector" />
+          <StaticImage src="../images/logo.png" alt="vector" />
         </Link>
         <nav className="hidden lg:flex align-middle">
-          <Link
-            to="/"
-            className="my-auto ml-4 text-2xl text-black font-semibold hover:text-red-700"
-          >
-            kuca
-          </Link>
-          <Link to="/" className=" my-auto ml-4">
+          <Link to="/" className="my-auto ml-8  text-black font-semibold ">
             Home
           </Link>
-          <Link to="/" className="my-auto ml-4">
-            Home
+          <Link to="/" className="my-auto ml-8  text-black font-semibold ">
+            Example
           </Link>
-          <Link to="/" className="my-auto ml-4">
-            Home
+          <Link to="/" className="my-auto ml-8  text-black font-semibold ">
+            Example
+          </Link>
+          <Link to="/" className="my-auto ml-8  text-black font-semibold ">
+            Example
           </Link>
         </nav>
         <div className="block lg:hidden">

@@ -1,9 +1,9 @@
 import React from "react"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+import { StaticImage } from "gatsby-plugin-image"
 
 const IndexPage = () => (
   <Layout>
@@ -13,6 +13,10 @@ const IndexPage = () => (
       <nav className="flex flex-col my-8 text-3xl  ">
         <Link to="/headers">Headers</Link>
       </nav>
+      <StaticImage
+        src="../images/gatsby-astronaut.png"
+        alt="logo"
+      ></StaticImage>
     </section>
   </Layout>
 )
