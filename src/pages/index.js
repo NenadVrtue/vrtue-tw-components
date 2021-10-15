@@ -12,6 +12,7 @@ const IndexPage = () => (
       <h1>Hello</h1>
       <nav className="flex flex-col my-8 text-3xl  ">
         <Link to="/headers">Headers</Link>
+        <Link to="/motion">Motion Page</Link>
       </nav>
       <StaticImage
         src="../images/gatsby-astronaut.png"

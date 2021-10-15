@@ -6,6 +6,7 @@
   "author": "Kostas Vrouvas <hello@kosvrouvas.com>",
   "dependencies": {
     "autoprefixer": "^10.2.6",
+    "framer-motion": "^4.1.17",
     "gatsby": "^3.7.1",
     "gatsby-image": "^3.7.1",
     "gatsby-plugin-google-analytics": "^3.7.1",
@@ -18,11 +19,13 @@
     "gatsby-plugin-sharp": "^3.14.0",
     "gatsby-source-filesystem": "^3.14.0",
     "gatsby-transformer-sharp": "^3.14.0",
+    "material-design-icons": "^3.0.1",
     "postcss": "^8.3.4",
     "prop-types": "^15.7.2",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-helmet": "^6.1.0"
+    "react-helmet": "^6.1.0",
+    "react-icons": "^4.3.1"
   },
   "devDependencies": {
     "prettier": "^2.3.1",
